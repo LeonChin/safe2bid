@@ -1,0 +1,117 @@
+body {
+    font-size: 16px;
+    color: #0047CC;
+    background-color: #f2f2f2;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+    background-color: #0047CC;
+    border-radius: 0;
+    border: 0;
+}
+
+#navbarNav a {
+    font-size: 1.4em;
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+}
+
+
+#home-tile,
+#actual-budget-tile,
+#ideal-budget-tile {
+    height: 500px;
+    width: 100%;
+    margin-top: 15px;
+    position: relative;
+    border: 2px solid ffffff;
+    overflow: auto;
+}
+
+#ideal-budget-tile {
+    height: 300px;
+}
+
+#home-tile:hover,
+#actual-budget-tile:hover,
+#ideal-budget-tile:hover {
+    box-shadow: 0 2px 10px 2px #0047CC;
+}
+
+#home-tile h2,
+#actual-budget-tile h2,
+#ideal-budget-tile h2 {
+    position: relative;
+    font-size: 30px;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #EAEAEA;
+    color: #0047CC;
+    opacity: .8;
+}
+
+
+#questionaire {
+    position: absolute;
+    margin-top: 10px;
+    width: 100%;
+}
+
+#actual-budget-tile {
+    overflow: auto;
+}
+
+p.desc {
+    margin-bottom: 0px;
+    margin-top: 10px;
+    position: relative;
+    color: #555
+}
+
+
+/* Footer */
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #0047CC;
+    border-top: 0;
+}
+
+#address,
+#hours,
+#Contact {
+    color: white;
+    line-height: 2;
+}
+
+#hours>span,
+#address>span,
+#Contact>span {
+    font-size: 1.3em;
+}
+
+#address p {
+    font-size: 8em;
+    line-height: 1.8;
+}
+
+.text-center {
+    color: white;
+}
+
+.btn-group {
+    margin: 5px;
+}
+
+#price1{
+    float: left;
+}
+
+#price3{
+    float: right;
+}
